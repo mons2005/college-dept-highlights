@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #fce4ec;       
+        }
+
+        header {
+            background-color: #f4c2c2; 
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;  
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #000000; 
+            text-decoration: none;
+            padding: 10px 15px;         }
+
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2); 
+            border-radius: 5px;
+        }
+
+        p {
+            text-align: justify;
+            margin: 20px; 
+            max-width: 800px; 
+            align-self: center;
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .contact-box {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-box form {
+            padding: 20px;
+            background-color: #f9e3e9; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; 
+        }
+
+        .contact-box form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%; 
+            max-width: 600px; 
+            margin: 0 auto; 
+        }
+
+        .contact-box label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-box input, .contact-box textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+
+        .contact-box textarea {
+            height: 80px;
+        }
+
+        .contact-box button {
+            padding: 10px 20px;
+            background-color: #e75480;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-box button:hover {
+            background-color: #c33c5e;
+        }
+
+        footer {
+            padding: 10px 0;
+            background-color:#f4c2c2;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            margin-top: auto; 
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="highlights.html">Highlights</a></li>
+                <li><a href="contact2.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center><div class="content">
+        <img src="C:\Users\tmony\OneDrive\Pictures\kamaraj 1.jpg" alt="Department Highlights Image" width="1000" height="300">
+    </div></center>
+    <section class="contact">
+        <div class="contact-box">
+            <p><b>Contact details:</b></p>
+            <address>
+                Kamaraj College of Engineering and Technology<br>
+                S.P.G.Chidambara Nadar, C.Nagammal Campus, S.P.G.C.Nagar, K.Vellakulam - 625 701, (Near Virudhunagar)
+            </address>
+        </div>
+        <div class="contact-box">
+            <p><b>Get in touch:</b></p>
+            <address>
+                Email: <a href="mailto:mail@kamarajengg.edu.in">mail@kamarajengg.edu.in</a><br>
+                Phone: +1234567890
+            </address>
+        </div>
+    </section>
+
+    <section class="contact-box">
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p><center>&copy; 2024 Kamaraj College of Engineering and Technology</center></p>
+    </footer>
+</body>
+</html>

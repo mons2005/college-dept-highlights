@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Highlights</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            background-color: #fce4ec; 
+        }
+
+        header {
+            background-color: #F4C2C2; 
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+            padding: 10px 15px;
+        }
+
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .content {
+            width: 100%; 
+            box-sizing: border-box; 
+            padding: 20px; 
+            flex: 1; 
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            margin-bottom: 20px;         }
+
+        .achievements {
+            text-align: center;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.1); 
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px; 
+        }
+
+        .achievements h2 {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 100%;
+        }
+
+        .view-button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #e75480;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .view-button:hover {
+            background-color: #c33c5e;
+        }
+
+        p {
+            text-align: justify;
+            margin: 20px;
+            max-width: 800px; 
+            align-self: center; 
+        }
+
+        footer {
+            text-align: center; 
+            padding: 10px 0;
+            background-color: #F4C2C2;
+            color: #fff;
+            width: 100%;
+            flex-shrink: 0; 
+            margin-top: auto;        
+	 }
+
+       
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px; 
+            margin-bottom: 20px;        
+ }
+
+        .image-grid img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);         }
+
+        .achievements-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.05); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Information Technology Department</h1>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="highlights.html">Highlights</a></li>
+                <li><a href="contact2.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <img src="C:\Users\tmony\OneDrive\Pictures\Screenshots\lab4 (2).jpg" alt="Department Highlights Image" width="1000" height="300">
+    </div>
+
+    <p>Welcome to the IT Department at Kamaraj College of Engineering and Technology. Our department is at the forefront of the ever-evolving field of Information Technology, empowering individuals and organizations to thrive in the digital age. With a legacy dating back to our establishment in 2001, we have been consistently delivering exceptional education and producing high-calibre technocrats. Our team consists of thirteen vibrant and highly qualified faculty members who possess expertise in various domains of Information Technology. We pride ourselves on providing comprehensive education that prepares our students to excel in the IT industries. With Information Technology being an integral part of almost every profession, we emphasize a multidisciplinary approach that encompasses a wide range of key areas. Our curriculum covers Artificial Intelligence, Augmented Reality, Data Analytics, Networking, Data Management, Cybersecurity, Communications, Web Technology, Software Design, and Systems Management and Administration.</p>
+
+    <div class="content">
+        <img src="C:\Users\tmony\OneDrive\Pictures\hod.jpg" alt="Department Highlights Image" width="400" height="300">
+    </div>
+
+    <p><b>Dr. E. Vakaimalar (Associate Professor & Hod)</b></p>
+
+    <div class="content achievements-container">
+        <div class="achievements-grid">
+            <section class="achievements">
+                <h2>Faculty Achievements</h2>
+                <a href="fac ach.html" class="view-button">View</a>
+            </section>
+            <section class="achievements">
+                <h2>Student Achievements</h2>
+                <a href="stu ach.html" class="view-button">View</a>
+            </section>
+        </div>
+    </div>
+    <div class="content image-grid">
+        <img src="C:\Users\tmony\OneDrive\Pictures\high1.jpg" alt="Department Highlights Image">
+        <img src="C:\Users\tmony\OneDrive\Pictures\high2.jpg" alt="Department Highlights Image">
+    </div>
+
+    <footer>
+        <p><center>&copy; 2024 Kamaraj College of Engineering and Technology</center></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <header>
+        <h1>Kamaraj College of Engineering and Technology</h1>
+    </header>
+
+    <div class="container">
+        <h2>Registration</h2>
+        <form id="registrationForm" action="#" method="POST" class="needs-validation" novalidate>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+                <div class="invalid-feedback">
+                    Please choose a username.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+                <div class="invalid-feedback">
+                    Please provide a valid email.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" minlength="6" required>
+                <div class="invalid-feedback">
+                    Password must be at least 6 characters long.
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" formaction="index3.html">Register</button>
+        </form>
+    </div>
+
+    <script src="scripts2.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Kamaraj College of Engineering and Technology</p>
+    </footer>
+</body>
+</html>
